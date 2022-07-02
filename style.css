@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body
+{
+    background:#333;
+}.showcase{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("1.jpg") no-repeat center ;
+    overflow: hidden;
+    margin: 0px 0px 7px;
+}
+.showcase-top img{
+    width: 167px;
+    height: 45px;
+}
+.showcase-top{
+    display: flex;
+    justify-content: space-between;
+    margin: 28px 52px;
+}
+.showcase-top .sign{
+    background: #e50914;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: White;
+    font-weight: 400;
+    width: 83px;
+    height: 35px;
+}
+.box1 h1{
+	font-size: 4rem;
+	line-height: 1.1;
+}
+.box1 h2{
+font-size: 1.625rem;
+font-weight: 400;
+margin: 1rem auto 2rem auto;
+}
+.box1 h3{
+	font-size: 1.2rem;
+	font-weight: lighter;
+    margin: 0px 0px 1.6rem 0px;
+}
+.box1 {
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 86vh;
+}
+.search input{
+	height: 70px;
+	width: 480px;
+	border: none;
+	color: #8c8c8c;
+	font-weight: normal;
+	font-size: 18px;
+	padding: 0px 20px;
+}
+.search{
+    display: flex;
+}
+.search a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.875rem;
+    background: #e50914;
+    padding: 17px 28px;
+}
+.container1 {
+	color: #fff;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+    background-color: black;
+}
+.container1 h2{
+    width: 500px;
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+.container1 h1{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin: 0px 0px 20px 0px;
+}
+.container{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    width: 100%;
+    height: 473px;
+    margin: 0px 0px 7px;
+}
+.container .tv{
+    width: 530px;
+    margin: 0px 0px 0px 36px;
+    z-index: 1;
+}
+.video-1{
+    position: absolute;
+    right: 310px;
+    height: 217px;
+    bottom: -344px;
+}
+.container .phone{
+    height: 393px;
+    position: relative;
+    left: -80px;    
+}
+.box-1 {
+	background-color: black;
+	border: 3px solid #333;
+	border-radius: 0.75em;
+	display: flex;
+	position: absolute;
+	left: 260px;
+	bottom: -895px;
+	/* height: 54px; */
+	padding: .5em .75em;
+	/* justify-content: center; */
+	align-items: center;
+	width: 295px;
+}
+.box-1 .sti{
+    height: 5rem;
+}
+.box-1 .box-11{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 16px;
+}
+.box-11 .st{
+    color: #fff;
+    font-size: medium;
+    font-weight: bold;
+}
+.box-11 .dwnld{
+    color: #0071eb;
+    font-size: 14px;
+}
+.box-1 .loading {
+	border-top: solid 2px #0071eb;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	margin: 0px 26px;
+    animation: spin 0.75s infinite linear;
+}
+@keyframes spin {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.container .tv2{
+    width: 515px;
+    position: relative;
+    left: 30px;
+    z-index: 1;
+}
+.video-2{
+    height: 206px;
+    position: absolute;
+    bottom: -1235px;
+    left: 881px;
+    width: 322px;
+}
+.kids{
+    width: 504.967px;
+    margin: 20px;
+}
+.lastcontainer{
+    background: black;
+    height: 130vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lastcontainer h1{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin: 48px;
+}
+.lastcontainer .faq .questions li {
+	background: #333;
+	padding: .8em 2.2em .8em 1.2em;
+	margin-bottom: 10px;
+	width: 100%;
+	list-style: none;
+	height: 40px;
+	width: 50vw;
+	display: flex;
+	align-items: center;
+	font-size: 24px;
+    cursor: pointer;
+}
+.lastcontainer h3{
+	font-size: 1.2rem;
+	font-weight: lighter;
+    margin: 57px 0px 1.6rem 0px;
+}
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 473px;
+    margin: 7px 0px 0px;
+    color:#757575;
+}
+footer a{
+    text-decoration: none;
+    color: #757575;
+}
+.lastbox a{
+    color: #757575;
+    text-decoration: none;
+    }
+.lastbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lastbox ul{
+    margin: 65px;
+}
+.lastbox ul li{
+    list-style: none;
+    margin: 22px 0px;
+}
+#language{
+    height: 45px;
+    width: 121px;
+    text-align: right;
+    padding: 7px;
+    color: #757575;
+    background: black;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius:4px ;
+}
+footer .margin{
+    position: relative;
+    left: 314px;
+    width: 40%;
+}
+
